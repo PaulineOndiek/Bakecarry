@@ -2,5 +2,6 @@
 
 
 .main{
-    @include mixins.flex(space-between,$align-items:center,direction:column,$wrap:nowrap)
+    @include mixins.flex($space-between:center,$align-items:center,$direction:column,$wrap:nowrap)
+    
 }
