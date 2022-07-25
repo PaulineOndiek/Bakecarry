@@ -1,0 +1,5 @@
+@use"../Basics/mixins";
+.hero{
+@include mixins.flex(space-between,center,row,nowrap);
+
+}
