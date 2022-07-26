@@ -1,5 +1,6 @@
-@use"../Basics/mixins";
+@use"../basics/mixins" as *;
+
 .hero{
-@include mixins.flex(space-between,center,row,nowrap);
+@include flex(space-between,center,row,nowrap);
 
 }
