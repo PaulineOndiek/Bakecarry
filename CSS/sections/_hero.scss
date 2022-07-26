@@ -1,1 +1,4 @@
-@use"../basics/mixin" as *;
+@use "../basics/mixin" as *;
+.hero{
+    @include flex(space-between,center,row,wrap)
+}
