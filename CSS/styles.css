@@ -1,1 +1,7 @@
-/*# sourceMappingURL=styles.css.map */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=styles.css.map */
