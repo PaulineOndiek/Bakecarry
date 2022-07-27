@@ -1,0 +1,4 @@
+@use"../Basics/footer";
+.footer{ @include mixin.flex(space-between,center,column,nowrap)
+}
+
