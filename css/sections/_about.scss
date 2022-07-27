@@ -2,8 +2,18 @@
 @use "../Basics/variables" as *;
 @use "../Basics/base";
 
-.aboutus{
-    @include flex(space-between,center,row,wrap);
-    width:50%;
-    
+.about{
+    @include flex(space-between,center,row,nowrap);
+    padding:3em 0;
+ 
+}
+
+.aboutimage{
+    height:40vh;
+
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
+
 }
