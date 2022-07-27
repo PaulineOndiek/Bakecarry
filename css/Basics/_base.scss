@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "../Basics/variables" as  *;
 
 *{
     margin:0;
@@ -10,5 +11,5 @@
     margin:0 auto;
 }
 body{
-    font-family:$pacifico;
+    font-family:$roboto;
 }

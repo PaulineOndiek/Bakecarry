@@ -1,3 +1,4 @@
+
 %button{
     border:none;
     padding:2em;
@@ -5,3 +6,10 @@
     
 }
 
+@use "../Basics/variables";
+%button{
+    border: none;
+    padding:2em 2.5em;
+    border-radius:5px;
+
+}
