@@ -1,2 +1,9 @@
-@use "../basic/mixin";
+@use "../Basics/mixin" as *;
+@use "../Basics/variables" as *;
+@use "../Basics/base";
 
+.aboutus{
+    @include flex(space-between,center,row,wrap);
+    width:50%;
+    
+}
