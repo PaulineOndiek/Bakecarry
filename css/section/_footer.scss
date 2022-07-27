@@ -1,4 +1,15 @@
-@use"../Basics/footer";
-.footer{ @include mixin.flex(space-between,center,column,nowrap)
+@use"../Basics/mixin";
+@use"../Basics/variables" as *;
+@use "../Basics/inheritance";
+.footer {
+    @extend %button;
+background:$primary_11;
+    
+}
+
+.subscribe {
+background: $primary_2;
+text-align: center;
+   
 }
 

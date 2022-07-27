@@ -63,13 +63,38 @@ body {
   font-family: "Pacifico", cursive;
 }
 
+.footer, .buttons {
+  border: none;
+  padding: 2em;
+  border-radius: 3px;
+}
+
 .main__popular {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #FBA1A1;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.border {
+  border: none;
+  padding: 2em 1em;
+  box-shadow: lightgray 5px 2px 5px;
+}
+
+.ksh {
+  color: pink;
+  font-size: 2rem;
+}
+
+.vanilla {
+  margin: 0.5em 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .main__img {
@@ -83,6 +108,9 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.main__img img .main__cake {
+  background: #F2D1D1;
+}
 
 .memory-section {
   display: flex;
@@ -90,12 +118,24 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #DCB692;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.button {
-  background: #FF8FB1;
-  box-shadow: #000000;
+.buttons {
+  padding: 1em 3em;
+  background-color: brown;
+  color: white;
+  margin: 0.5em 0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
 }
 
 .aboutus {
@@ -105,4 +145,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 50%;
+}
+
+.footer {
+  background: #FFE6E6;
+}
+
+.subscribe {
+  background: #FF8FB1;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
