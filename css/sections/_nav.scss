@@ -4,17 +4,25 @@
 
 
 .nav{
+  background-color: whitesmoke;
+  position: fixed;
+  width:100%;
+
+.nav__logo{
     
    @include mixin.flex(space-between,flex-start,row,wrap);
    list-style-type: none;
+   padding:2em 0;
+   
   
    ul{
        @include mixin.flex(space-between,center,row,wrap);
        list-style-type: none;
-       gap:1em;}
+       gap:2em;}
 
-     li{
+     li:hover{
        cursor:pointer;
+       color:brown;
       
       
    }
@@ -23,3 +31,4 @@
 
 
    }
+}

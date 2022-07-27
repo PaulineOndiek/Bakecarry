@@ -1,22 +1,35 @@
 .nav {
+  background-color: whitesmoke;
+  position: fixed;
+  width: 100%;
+}
+.nav .nav__logo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
+  padding: 2em 0;
 }
-.nav ul {
+.nav .nav__logo ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 1em;
+  gap: 2em;
 }
-.nav li {
+.nav .nav__logo li:hover {
   cursor: pointer;
+  color: brown;
+}
+
+button {
+  border: none;
+  padding: 2em 2.5em;
+  border-radius: 5px;
 }
 
 header {
@@ -29,23 +42,16 @@ header {
 }
 
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 4em;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
 }
-.hero .hero--right {
-  width: 50%;
-}
-.hero .hero--left {
-  width: 50%;
-}
-.hero .hero--left img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+button {
+  background-color: brown;
+  color: white;
 }
 
 * {
@@ -60,7 +66,7 @@ header {
 }
 
 body {
-  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 .main__popular {
@@ -98,11 +104,21 @@ body {
   box-shadow: #000000;
 }
 
-.aboutus {
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
+  flex-wrap: nowrap;
+  padding: 3em 0;
+}
+
+.aboutimage {
+  height: 40vh;
+}
+.aboutimage img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=styles.css.map */
