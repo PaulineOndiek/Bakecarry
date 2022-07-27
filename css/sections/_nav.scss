@@ -1,11 +1,25 @@
+@use "../Basics/mixin";
+@use "../Basics/variables";
+
+
+
 .nav{
-    background-image:url(https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?cs=srgb&dl=pexels-matheus-guimar%C3%A3es-1291712.jpg&fm=jpg);
-    height:100vh;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity:0.2;
+    
+   @include mixin.flex(space-between,flex-start,row,wrap);
+   list-style-type: none;
+  
+   ul{
+       @include mixin.flex(space-between,center,row,wrap);
+       list-style-type: none;
+       gap:1em;}
+
+     li{
+       cursor:pointer;
+      
+      
+   }
+        
+    
+
 
    }
-   
