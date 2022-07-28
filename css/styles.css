@@ -21,9 +21,12 @@
   list-style-type: none;
   gap: 2em;
 }
+.nav .nav__logo a {
+  color: pink;
+  text-decoration: none;
+}
 .nav .nav__logo li:hover {
   cursor: pointer;
-  color: brown;
 }
 
 .footer, .buttons, button {
@@ -72,7 +75,7 @@ button {
 }
 
 body {
-  font-family: lato;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -270,8 +273,13 @@ h1 {
   padding-top: 5em;
 }
 .contactheader .text {
-  padding: 2em;
+  padding: 1em;
   margin: 3em 0;
-  box-shadow: 1em 1em 1em chocolate;
+  border: 2px solid skyblue;
   border-radius: 1em;
+  background: skyblue;
+}
+
+form {
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

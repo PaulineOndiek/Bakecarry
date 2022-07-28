@@ -11,17 +11,20 @@
     background-attachment: fixed;
 height:100vh;
      .form{
-   
     padding-top:5em;
      }
 
 .text{
-padding:2em;
+padding:1em;
 margin:3em 0;
-// border:2px solid skyblue;
-box-shadow: 1em 1em 1em chocolate;
+border:2px solid skyblue;
+// box-shadow: 1em 1em 0.5em chocolate;
 border-radius:1em;
-
-
+background:skyblue;
 }
-}
+     }
+
+    
+    form{
+        margin:0 auto;
+    }
