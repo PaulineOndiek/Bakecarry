@@ -1,6 +1,7 @@
 @use"../Basics/mixin";
 @use"../Basics/variables" as *;
 @use "../Basics/inheritance";
+
 .footer {
     @extend %button;
 background:$primary_11;
