@@ -2,18 +2,37 @@
 @use "../Basics/variables" as *;
 @use "../Basics/base";
 
-.about{
+.aboutheader{
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(https://images.pexels.com/photos/6287243/pexels-photo-6287243.jpeg?cs=srgb&dl=pexels-klaus-nielsen-6287243.jpg&fm=jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+h1{
+    padding-top:6em;
+}
+}
+.aboutus p{
+    padding-bottom:2em;
+}
+.about__wrapper{
     @include flex(space-between,center,row,nowrap);
-    padding:3em 0;
+    &__img{
+        width: 50%;
+        padding-top:2em;
+        img{
+            width:100%;
+            height:100%;
+
+        }
+        h3{
+            text-align:center;
+        }
+    }
+    &__paragraph{
+        width: 45%;
+    }
  
 }
 
-.aboutimage{
-    height:40vh;
-
-    img {
-        object-fit: cover;
-        object-position: center;
-    }
-
-}

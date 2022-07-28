@@ -27,13 +27,20 @@
 }
 
 .footer, .buttons, button {
+
+  border: none;
+  padding: 2em;
+  border-radius: 3px;
+}
+
+.footer, .buttons, button {
   border: none;
   padding: 2em 2.5em;
   border-radius: 5px;
   cursor: pointer;
 }
 
-header {
+.indexheader {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?cs=srgb&dl=pexels-matheus-guimar%C3%A3es-1291712.jpg&fm=jpg);
   height: 100vh;
   background-repeat: no-repeat;
@@ -67,7 +74,10 @@ button {
 }
 
 body {
+
   font-family: "Roboto", sans-serif;
+
+  font-family: lato;
 }
 
 .main__popular {
@@ -144,12 +154,29 @@ h1 {
   display: flex;
 }
 
-.about {
+.aboutheader {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/6287243/pexels-photo-6287243.jpeg?cs=srgb&dl=pexels-klaus-nielsen-6287243.jpg&fm=jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.aboutheader h1 {
+  padding-top: 6em;
+}
+
+.aboutus p {
+  padding-bottom: 2em;
+}
+
+.about__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+
   padding: 3em 0;
 }
 
@@ -161,6 +188,22 @@ h1 {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+
+}
+.about__wrapper__img {
+  width: 50%;
+  padding-top: 2em;
+}
+.about__wrapper__img img {
+  width: 100%;
+  height: 100%;
+}
+.about__wrapper__img h3 {
+  text-align: center;
+}
+.about__wrapper__paragraph {
+  width: 45%;
+
 }
 
 .footer {
@@ -170,6 +213,7 @@ h1 {
 .subscribe {
   background: #FF8FB1;
   text-align: center;
+
 }
 
 .shop {
@@ -203,4 +247,20 @@ h1 {
 .shop__imgdetails {
   padding: 0.8em 0;
   text-align: center;
+}
+
+.contactheader {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/7078394/pexels-photo-7078394.jpeg?cs=srgb&dl=pexels-laura-tancredi-7078394.jpg&fm=jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.contactheader form {
+  background-color: red;
+}
+.contactheader input {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=styles.css.map */
