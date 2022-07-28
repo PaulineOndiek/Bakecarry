@@ -26,10 +26,11 @@
   color: brown;
 }
 
-button {
+.footer, .buttons, button {
   border: none;
   padding: 2em 2.5em;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 header {
@@ -67,12 +68,6 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-}
-
-.footer, .buttons {
-  border: none;
-  padding: 2em;
-  border-radius: 3px;
 }
 
 .main__popular {
@@ -133,6 +128,11 @@ body {
   background-color: brown;
   color: white;
   margin: 0.5em 0;
+  font-weight: bold;
+}
+.buttons:hover {
+  background: lightgray;
+  color: brown;
 }
 
 h1 {
@@ -149,19 +149,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-
-  flex-wrap: wrap;
-  width: 50%;
-}
-
-.footer {
-  background: #FFE6E6;
-}
-
-.subscribe {
-  background: #FF8FB1;
-  text-align: center;
-
   flex-wrap: nowrap;
   padding: 3em 0;
 }
@@ -174,5 +161,46 @@ h1 {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
 
+.footer {
+  background: #FFE6E6;
+}
+
+.subscribe {
+  background: #FF8FB1;
+  text-align: center;
+}
+
+.shop {
+  padding: 6em 0;
+}
+
+.shop__products {
+  display: flex;
+  justify-content: center;
+  align-items: row;
+  flex-direction: wrap;
+  flex-wrap: nowrap;
+  gap: 2em;
+  padding-bottom: 2.5em;
+}
+
+.product {
+  box-shadow: 1px 1px 7px #d3d3d3;
+  width: 25%;
+}
+.product img {
+  width: 100%;
+  padding: 0.4em;
+  transition: 1s ease;
+}
+.product img:hover {
+  transform: scale(0.9);
+  transition: 1s ease;
+}
+
+.shop__imgdetails {
+  padding: 0.8em 0;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

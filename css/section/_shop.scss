@@ -1,0 +1,37 @@
+@use "../Basics/mixin";
+@use "../Basics/variables" as *;
+@use "../Basics/inheritance";
+
+.shop {
+    padding: 6em 0;
+}
+
+.shop__products {
+    @include mixin.flex(center, row, wrap);
+    gap: 2em;
+    padding-bottom: 2.5em;
+}
+
+.product {
+    box-shadow: 1px 1px 7px $primary_12;
+    width: 25%;
+
+    img {
+        width: 100%;
+        padding: .4em;
+        transition: 1s ease;
+
+        &:hover {
+            transform: scale(0.9);
+            transition: 1s ease;
+        }
+    }
+}
+
+.shop__imgdetails {
+    padding: .8em 0;
+    text-align: center;
+
+
+
+}
