@@ -1,0 +1,19 @@
+@use "../Basics/mixin" as *;
+@use "../Basics/variables";
+@use "../Basics/inheritance";
+
+.contactheader{
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(https://images.pexels.com/photos/7078394/pexels-photo-7078394.jpeg?cs=srgb&dl=pexels-laura-tancredi-7078394.jpg&fm=jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+height:100vh;
+    form{
+    background-color: red;
+}
+input{
+margin-bottom:30px;
+}
+}
