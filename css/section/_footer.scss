@@ -5,12 +5,18 @@
 .footer {
     @extend %button;
 background:$primary_11;
+
     
 }
 
 .subscribe {
-background: $primary_2;
-text-align: center;
-   
+
+    background: $primary_2;
+    text-align: center;
+    list-style-type: none;
 }
 
+.main__footer{
+   @include mixin.flex(space-between,center,row,wrap);
+ 
+}
