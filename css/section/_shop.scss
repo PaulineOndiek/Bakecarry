@@ -4,6 +4,13 @@
 
 .shop {
     padding: 6em 0;
+
+    &__img{
+        height:300px;
+        
+
+        
+    }
 }
 
 .shop__products {
@@ -15,11 +22,14 @@
 .product {
     box-shadow: 1px 1px 7px $primary_12;
     width: 25%;
+    
 
     img {
         width: 100%;
-        padding: .4em;
+        height: 100%;
+        padding:0.4em;
         transition: 1s ease;
+      object-fit: cover;
 
         &:hover {
             transform: scale(0.9);
