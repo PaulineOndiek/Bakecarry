@@ -285,6 +285,16 @@ h1 {
   background-attachment: fixed;
   height: 100vh;
 }
+.contactheader .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contactheader .contactus__address ul {
+  list-style-type: none;
+}
 .contactheader .form {
   padding-top: 5em;
 }
@@ -302,5 +312,32 @@ form {
 
 .login__form {
   padding-top: 10em;
+  text-align: center;
+}
+
+.contactheader {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/7078394/pexels-photo-7078394.jpeg?cs=srgb&dl=pexels-laura-tancredi-7078394.jpg&fm=jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.contactheader .form {
+  padding-top: 5em;
+}
+.contactheader .text {
+  padding: 0.5em;
+  margin: 2em 0;
+  border-radius: 1em;
+  background: skyblue;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.form {
   text-align: center;
 }/*# sourceMappingURL=styles.css.map */
