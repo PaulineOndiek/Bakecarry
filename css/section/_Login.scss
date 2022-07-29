@@ -1,0 +1,18 @@
+@use "../Basics/mixin" as *;
+
+
+.login__form{
+    padding-top: 10em;
+    text-align: center;
+}
+.text{
+    padding:.5em;
+    margin:2em 0;
+    border-radius:1em;
+    background:skyblue;
+    }
+    
+.btn{
+    background-color: brown;
+    font-weight: bold;
+}

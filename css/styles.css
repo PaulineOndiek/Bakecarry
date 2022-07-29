@@ -168,6 +168,12 @@ h1 {
   display: flex;
 }
 
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 1em;
+}
+
 .aboutheader {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/6287243/pexels-photo-6287243.jpeg?cs=srgb&dl=pexels-klaus-nielsen-6287243.jpg&fm=jpg);
   height: 50vh;
@@ -314,6 +320,21 @@ form {
   padding-top: 10em;
   text-align: center;
 }
+
+
+.text {
+  padding: 0.5em;
+  margin: 2em 0;
+  border-radius: 1em;
+  background: skyblue;
+}
+
+.btn {
+  background-color: brown;
+  font-weight: bold;
+}
+
+
 
 .contactheader {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/7078394/pexels-photo-7078394.jpeg?cs=srgb&dl=pexels-laura-tancredi-7078394.jpg&fm=jpg);
