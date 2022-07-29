@@ -10,18 +10,20 @@
 
 .nav__logo{
     
-   @include mixin.flex(space-between,flex-start,row,wrap);
+   @include mixin.flex(space-between,center,row,wrap);
    list-style-type: none;
-   padding:2em 0;
+   padding:1em 0;
    
-  
+  img{
+    width:10%;
+  }
    ul{
        @include mixin.flex(space-between,center,row,wrap);
        list-style-type: none;
        gap:2em;}
 
        a{
-        color:pink;
+        color:$primary_13;
         text-decoration:none;
        }
      li:hover{
