@@ -16,7 +16,7 @@
     box-shadow:$primary_4 5px 2px 5px;
 }
 .ksh{
-    color:$primary_4;
+   
     font-size:2rem;
 }
 .vanilla{
@@ -39,12 +39,15 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    &:hover{
+        background: lightgray;
+        color:brown;
+      }
  
 
 }
 
 .main__cake{
-    // background:$primary_10;
     gap:3em;
 }
 
