@@ -336,8 +336,7 @@ form {
 }
 
 .btn {
-  background-color: brown;
-  font-weight: bold;
+  padding: 2em 0;
 }
 
 .contactheader {
