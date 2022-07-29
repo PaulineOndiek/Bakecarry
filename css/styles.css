@@ -177,6 +177,10 @@ h2 {
   margin-top: 1em;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .aboutheader {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/6287243/pexels-photo-6287243.jpeg?cs=srgb&dl=pexels-klaus-nielsen-6287243.jpg&fm=jpg);
   height: 50vh;
