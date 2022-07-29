@@ -10,7 +10,11 @@
     background-size: cover;
     background-attachment: fixed;
 height:100vh;
-     .form{
+     .contact{
+        @include mixin(space-between,center,row, wrap);
+     }
+
+.form{
     padding-top:5em;
      }
 
@@ -18,18 +22,12 @@ height:100vh;
 padding:1em;
 margin:3em 0;
 border:2px solid skyblue;
-// box-shadow: 1em 1em 0.5em chocolate;
+
 border-radius:1em;
 background:skyblue;
 }
      }
 
-
-
-}
-}
-
-    }
     form{
         margin:0 auto;
     }
