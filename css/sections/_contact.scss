@@ -10,9 +10,18 @@
     background-size: cover;
     background-attachment: fixed;
 height:100vh;
+
     //  .contact{
         // @include mixin(space-between,center,row, wrap);
     //  }
+
+
+     .contact{
+        @include flex(space-between,center,row, wrap);
+     }
+.contactus__address ul{
+list-style-type: none;
+}
 
 .form{
     padding-top:5em;
