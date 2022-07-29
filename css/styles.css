@@ -104,7 +104,6 @@ h1 {
 }
 
 .ksh {
-  color: #BAE8D4;
   font-size: 2rem;
 }
 
@@ -127,6 +126,10 @@ h1 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.main__img img:hover {
+  background: lightgray;
+  color: brown;
 }
 
 .main__cake {
@@ -226,6 +229,7 @@ h1 {
 }
 .shop__img {
   height: 300px;
+  background-color: #FF8FB1;
 }
 
 .shop__products {
@@ -260,6 +264,18 @@ h1 {
   text-align: center;
 }
 
+.ksh {
+  font-size: 2rem;
+  padding-bottom: 2em 0;
+}
+
+.vanilla {
+  margin: 0.5em 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: #BAE8D4;
+}
+
 .contactheader {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/7078394/pexels-photo-7078394.jpeg?cs=srgb&dl=pexels-laura-tancredi-7078394.jpg&fm=jpg);
   height: 50vh;
@@ -282,4 +298,9 @@ h1 {
 
 form {
   margin: 0 auto;
+}
+
+.login__form {
+  padding-top: 10em;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
